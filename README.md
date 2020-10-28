@@ -4,7 +4,6 @@ This repo implements a difficulty estimation method using human annotations in s
 
 ## Contents
 
-* Data - datasets used and MTurk survey results
 * Scripts - code to run neural and non-neural classification/regression models
 * Graphs - graphs generated from the experiments and analysis
 
