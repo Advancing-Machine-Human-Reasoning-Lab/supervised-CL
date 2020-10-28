@@ -51,8 +51,8 @@ def create_hit():
     # for i in range(len(mturk_df.index)):
     question = open('./questions.xml','r').read()
     mturk = boto3.client('mturk',
-    aws_access_key_id = "AKIA3MIA75GRVQAPYMMD",
-    aws_secret_access_key = "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",
+    aws_access_key_id = <key>
+    aws_secret_access_key = <key>,
     region_name='us-east-1',
     endpoint_url = MTURK_SANDBOX
     )
