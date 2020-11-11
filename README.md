@@ -1,11 +1,10 @@
 # Difficulty Estimation for Supervised NLP Tasks
 
-This repo implements a difficulty estimation method using human annotations in supervised NLP tasks. The experiment details and results can also be found in the paper "Towards a Task-Agnostic Model of Difficulty Estimation for Supervised Learning Tasks". If you use code in your academic work, please consider citing this paper. Link here.
-
+This repo implements a difficulty estimation method using human annotations in supervised NLP tasks. The experiment details and results can also be found in our AACL-IJCNLP 2020 paper.
 ## Contents
 
 * Scripts - code to run neural and non-neural classification/regression models
-* Graphs - graphs generated from the experiments and analysis
+* jupyter_notebooks - same code, but provided in notebooks for convenince
 
 ## Experiments
 
@@ -14,6 +13,17 @@ This repo implements a difficulty estimation method using human annotations in s
 
 ### Classification
 
+### Reference
 
-## Acknowledgement
-This material is based upon work supported by the Air Force Office of Scientific Research under award numbers FA9550-17-1-0191 and FA9550-18-1-0052. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the United States Air Force.
+If you use this code, please consider citing us.S
+
+```
+@InProceedings{
+    author = "Antonio Laverghetta Jr.,Jamshidbek Mirzakahalov, John Licato",
+    title = "Towards a Task-Agnostic Model of Difficulty Estimation for Supervised Learning Tasks",
+    year = "2020"
+}
+```
+
+The full bibtex entry will be updated upon publication of the work.
+
