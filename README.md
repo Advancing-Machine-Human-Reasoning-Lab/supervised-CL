@@ -2,7 +2,7 @@
 
 This repo implements a difficulty estimation method using human annotations in supervised NLP tasks. The experiment details and results can also be found in our AACL-IJCNLP 2020 paper.
 ## Contents
-The scripts directory contains example code to run neural and non-neural classification/regression models. To compute the feature sets, we have also provided the RoBERTa sentence embeddings for each example in the SNLI dev set in ```SNLI_roberta_vectors.zip```.
+The scripts directory contains example code to run neural and non-neural classification/regression models. To compute the feature sets, we have also provided the RoBERTa sentence embeddings for each example in the SNLI dev [here](https://drive.google.com/file/d/12tWHUSROGQc0AMZOghrgYTfiTJOll9i-/view?usp=sharing).
 
 ## Requirements
 The following packages are needed to run this code:
