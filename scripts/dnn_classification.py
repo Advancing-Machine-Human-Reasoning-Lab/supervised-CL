@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 # read the dev set
-df = pd.read_json("../data/snli_1.0/snli_1.0_dev.jsonl",lines=True)
+df = pd.read_json("../data/snli_1.0/snli_1.0_dev.jsonl",lines=True) # update this line with wherever you have SNLI stored
 
 agreement = [labels.count(gold_label) for labels, gold_label in zip(list(df['annotator_labels'].values), list(df['gold_label'].values)) if gold_label != '' and labels]
 # calculate the agreement
