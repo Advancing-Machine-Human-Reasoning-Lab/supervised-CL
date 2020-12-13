@@ -23,11 +23,11 @@ Please refer to the documentation of each specific package for instructions on i
 If you use this code, please consider citing us:
 
 ```
-@InProceedings{
-    author = "Antonio Laverghetta Jr., Jamshidbek Mirzakahalov, John Licato",
-    title = "Towards a Task-Agnostic Model of Difficulty Estimation for Supervised Learning Tasks",
-    year = "2020"
+@inproceedings{laverghetta2020towards,
+  title={Towards a Task-Agnostic Model of Difficulty Estimation for Supervised Learning Tasks},
+  author={Laverghetta Jr, Antonio and Mirzakhalov, Jamshidbek and Licato, John},
+  booktitle={Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing: Student Research Workshop},
+  pages={16--23},
+  year={2020}
 }
 ```
-
-The full BibTeX entry will be updated upon publication of the work.
